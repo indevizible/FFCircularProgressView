@@ -312,4 +312,9 @@
     self.isSpinning = NO;
 }
 
+-(UIControlEvents)allControlEvents
+{
+    return UIControlEventAllTouchEvents;
+}
+
 @end
