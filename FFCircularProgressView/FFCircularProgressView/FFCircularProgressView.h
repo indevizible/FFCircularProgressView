@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CoreGraphics/CoreGraphics.h>
 
-@interface FFCircularProgressView : UIView
+@interface FFCircularProgressView : UIControl
 
 /**
  * The progress of the view.
